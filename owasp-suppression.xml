@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.1.xsd">
+    <suppress>
+        <notes><![CDATA[
+        file name: jackson-core-2.7.5.jar
+        ]]></notes>
+        <sha1>dc3d2d9a654227007529c0fb6e86de9bcd038f5f</sha1>
+        <cve>CVE-2016-3720</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+        file name: jackson-annotations-2.7.0.jar
+        ]]></notes>
+        <sha1>19f42c154ffc689f40a77613bc32caeb17d744e3</sha1>
+        <cpe>cpe:/a:fasterxml:jackson:2.7.0</cpe>
+    </suppress>   
+</suppressions>
